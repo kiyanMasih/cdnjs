@@ -1,0 +1,218 @@
+#bottom {
+    background: #383838;
+    padding: 18px 0 0;
+}
+
+    #bottom .block5x {
+        margin: 0;
+    }
+
+    #bottom .block {
+        width: 20%;
+        padding: 0;
+    }
+
+        #bottom .block a {
+            color: #d6d6d6;
+            font-size: 12px;
+        }
+
+            #bottom .block a:hover {
+                color: #fff;
+            }
+
+        #bottom .block ul {
+            border-right: 1px #505050 solid;
+            min-height: 165px;
+            padding: 0 10px;
+        }
+
+            #bottom .block ul li {
+                padding: 2px 0;
+            }
+
+        #bottom .block:first-child ul {
+            padding-left: 0;
+        }
+
+#phone {
+    color: #fff;
+}
+
+    #phone span {
+        color: #ceb288;
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    #phone div {
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+        #phone div strong {
+            font-weight: 900;
+        }
+
+#legalLinks {
+    margin: 40px 0 0;
+}
+
+    #legalLinks,
+    #legalLinks a {
+        font-size: 11px;
+        color: #adadad;
+    }
+
+        #legalLinks a {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+            #legalLinks a:last-child {
+                margin-right: 0;
+            }
+
+#bottomSplitter {
+    border-top: 1px #505050 solid;
+}
+
+#tursab {
+    background: url("../images/tursab.png") 0 center no-repeat;
+    height: 64px;
+    width: 100px;
+    display: block;
+}
+
+    #tursab strong {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+#social li {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+    #social li.i {
+        text-indent: -999em;
+        background: url("../images/social-icons.png") 0 0 no-repeat;
+        overflow: hidden;
+        height: 21px;
+        margin: 13px 0 0 5px;
+        transition: background-position .2s ease;
+        -webkit-transition: background-position .2s ease;
+        -moz-transition: background-position .2s ease;
+        -o-transition: background-position .2s ease;
+    }
+
+        #social li.i,
+        #social li.i a {
+            width: 21px;
+            height: 21px;
+        }
+
+            #social li.i a {
+                display: block;
+            }
+
+    #social li.fb:hover {
+        background-position: 0 -21px;
+    }
+
+    #social li.tw {
+        background-position: -21px 0;
+    }
+
+        #social li.tw:hover {
+            background-position: -21px -21px;
+        }
+
+    #social li.li {
+        background-position: -42px 0;
+    }
+
+        #social li.li:hover {
+            background-position: -42px -21px;
+        }
+
+    #social li.gp {
+        background-position: -63px 0;
+    }
+
+        #social li.gp:hover {
+            background-position: -63px -21px;
+        }
+
+    #social li.in {
+        background-position: -84px 0;
+    }
+
+        #social li.in:hover {
+            background-position: -84px -21px;
+        }
+
+    #social li:first-child {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+
+@media (max-width: 767px) {
+    #bottom .block {
+        width: 100%;
+    }
+
+        #bottom .block ul {
+            border-right: none;
+            padding: 10px 0;
+            margin: 0;
+            text-align: center;
+            min-height: inherit;
+            border-bottom: 1px #666 solid;
+        }
+
+    #bottom .col-md-6.text-right {
+        text-align: center;
+    }
+
+    #phone {
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    #legalLinks {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+        #legalLinks a:first-child {
+            margin-left: 0;
+        }
+
+    #tursab {
+        background-color: #fff;
+        background-position: center 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #bottom .block a {
+        font-size: 10px;
+    }
+
+    #phone div {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}
